@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Clean React Flow Controls */
+.react-flow__attribution {
+  display: none !important;
+}
+
+.react-flow__controls {
+  border-radius: 0.625rem !important;
+  overflow: hidden;
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08) !important;
+}
+
+.dark .react-flow__controls {
+  border-color: #1e293b !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
+}
+
+.react-flow__controls-button {
+  background: #ffffff !important;
+  border-bottom: 1px solid #f1f5f9 !important;
+  fill: #475569 !important;
+}
+
+.react-flow__controls-button:hover {
+  background: #f8fafc !important;
+}
+
+.dark .react-flow__controls-button {
+  background: #111827 !important;
+  border-bottom: 1px solid #1f2937 !important;
+  fill: #cbd5e1 !important;
+}
+
+.dark .react-flow__controls-button:hover {
+  background: #1f2937 !important;
+}
+
+.react-flow__minimap {
+  border-radius: 0.625rem !important;
+  overflow: hidden;
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06) !important;
+}
+
+.dark .react-flow__minimap {
+  border-color: #1e293b !important;
+}
